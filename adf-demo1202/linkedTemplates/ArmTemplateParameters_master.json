@@ -5,6 +5,21 @@
 		"factoryName": {
 			"value": "adf-demo1202"
 		},
+		"AdvWorksDb_password": {
+			"value": ""
+		},
+		"BlobStorageProducts_connectionString": {
+			"value": ""
+		},
+		"AdvWorksDb_properties_typeProperties_server": {
+			"value": "divyanshi.database.windows.net"
+		},
+		"AdvWorksDb_properties_typeProperties_database": {
+			"value": "workspace"
+		},
+		"AdvWorksDb_properties_typeProperties_userName": {
+			"value": "Divyanshi"
+		},
 		"containerUri": {
 			"value": ""
 		},
