@@ -11,6 +11,12 @@
 		"BlobStorageProducts_connectionString": {
 			"value": ""
 		},
+		"AdvWorksDb1_password": {
+			"value": ""
+		},
+		"BlobStorageCustomer_connectionString": {
+			"value": ""
+		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"value": "divyanshi.database.windows.net"
 		},
@@ -18,6 +24,15 @@
 			"value": "workspace"
 		},
 		"AdvWorksDb_properties_typeProperties_userName": {
+			"value": "Divyanshi"
+		},
+		"AdvWorksDb1_properties_typeProperties_server": {
+			"value": "divyanshi.database.windows.net"
+		},
+		"AdvWorksDb1_properties_typeProperties_database": {
+			"value": "workspace"
+		},
+		"AdvWorksDb1_properties_typeProperties_userName": {
 			"value": "Divyanshi"
 		},
 		"containerUri": {

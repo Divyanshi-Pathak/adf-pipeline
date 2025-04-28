@@ -15,6 +15,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'BlobStorageProducts'"
 		},
+		"AdvWorksDb1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'AdvWorksDb1'"
+		},
+		"BlobStorageCustomer_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'BlobStorageCustomer'"
+		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "divyanshi.database.windows.net"
@@ -24,6 +32,18 @@
 			"defaultValue": "workspace"
 		},
 		"AdvWorksDb_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "Divyanshi"
+		},
+		"AdvWorksDb1_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "divyanshi.database.windows.net"
+		},
+		"AdvWorksDb1_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "workspace"
+		},
+		"AdvWorksDb1_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "Divyanshi"
 		},
@@ -60,6 +80,12 @@
 					"BlobStorageProducts_connectionString": {
 						"value": "[parameters('BlobStorageProducts_connectionString')]"
 					},
+					"AdvWorksDb1_password": {
+						"value": "[parameters('AdvWorksDb1_password')]"
+					},
+					"BlobStorageCustomer_connectionString": {
+						"value": "[parameters('BlobStorageCustomer_connectionString')]"
+					},
 					"AdvWorksDb_properties_typeProperties_server": {
 						"value": "[parameters('AdvWorksDb_properties_typeProperties_server')]"
 					},
@@ -68,6 +94,15 @@
 					},
 					"AdvWorksDb_properties_typeProperties_userName": {
 						"value": "[parameters('AdvWorksDb_properties_typeProperties_userName')]"
+					},
+					"AdvWorksDb1_properties_typeProperties_server": {
+						"value": "[parameters('AdvWorksDb1_properties_typeProperties_server')]"
+					},
+					"AdvWorksDb1_properties_typeProperties_database": {
+						"value": "[parameters('AdvWorksDb1_properties_typeProperties_database')]"
+					},
+					"AdvWorksDb1_properties_typeProperties_userName": {
+						"value": "[parameters('AdvWorksDb1_properties_typeProperties_userName')]"
 					}
 				}
 			},
